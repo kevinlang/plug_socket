@@ -40,6 +40,9 @@ defmodule PlugSocket.MixProject do
   end
 
   defp deps do
-    []
+    [
+      # docs
+      {:ex_doc, "~> 0.21", only: :docs}
+    ]
   end
 end
