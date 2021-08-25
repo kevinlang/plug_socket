@@ -9,7 +9,8 @@ defmodule PlugSocket.MixProject do
       app: :plug_socket,
       version: @version,
       elixir: "~> 1.8",
-      start_permanent: Mix.env() == :prod,
+      name: "PlugSocket",
+      description: "Add Cowboy websockets to your Plug.Router easily",
       deps: deps(),
       docs: docs(),
       package: package()
